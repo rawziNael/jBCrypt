@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<style>
+    body {
+    text-align: center;
+
+}
+form {
+    display: inline-block;
+}
+</style>
+<body>
+<h1>Log in</h1>
+<form action="/login" method="POST">
+    <label for="username" class="sr-only">Username</label>
+    <input type="text" name="username">
+    <label for="password">Password</label>
+    <input type="password" name="password">
+    <input type="submit" value="Login">
+</form><br><br>
+<form action="/signup" method="GET">
+    <h2>Create new account</h2>
+    <button type="submit">Sign up</button>
+</form>
+
+</body>
+</html>
